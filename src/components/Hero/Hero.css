@@ -1,0 +1,14 @@
+.hero__container {
+    display: flex;
+    height: 480px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.hero__container span {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: -3px;
+}
