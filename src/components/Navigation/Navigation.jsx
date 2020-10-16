@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import '../Navigation/Navigation.css';
 import resume from '../Media/documents/oscaroneill_resume.pdf';
 
 const Navigation = () => {
+    const dropdownRef = useRef(null);
+    const [isActive, setIsActive] = useState(false);
+    const onClick = () => setIsActive(!isActive);
+
     return (
         <div className="nav__container">
             <div className="nav__home nav">
@@ -13,13 +17,23 @@ const Navigation = () => {
                 </a>
             </div>
 
-            <div className="nav__items">
-                <div className="nav__skills nav">Skills</div>
-                <div className="nav__resume nav">
+            <div onClick={onClick} className="mobile__menu">&#9776;</div>
+            <div ref={dropdownRef} className={`blanket ${ isActive ? 'active' : 'inactive' }`}></div>
+
+            <div ref={dropdownRef} className={`nav__items ${ isActive ? 'active' : 'inactive' }`}>
+                <div onClick={onClick} className="nav__skills nav">
+                    Skills
+                </div>
+
+                <div onClick={onClick} className="nav__resume nav">
                     <a href={resume}>Resume</a>
                 </div>
-                <div className="nav__contact nav">Contact Me</div>
+                
+                <div onClick={onClick} className="nav__contact nav">
+                    <a href="#contact">Contact Me</a>
+                </div>
             </div>
+
         </div>
     )
 }

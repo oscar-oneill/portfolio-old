@@ -12,3 +12,12 @@
     font-size: 60px;
     letter-spacing: -3px;
 }
+
+@media (max-width: 749px) {
+    .hero__container span {
+        font-size: 40px;
+        text-align: left;
+        position: static;
+        padding: 20px;
+    }
+}
