@@ -29,7 +29,6 @@
     height: auto;
     width: 90%;
     background: #5373F7;
-    border-radius: 20px;
     padding: 30px;
 }
 
@@ -43,13 +42,28 @@
 
 .contact__form input {
     height: 40px;
-    width: 60%;
+    width: 70%;
     margin: 10px;
-    font-family: 'Merriweather';
-    letter-spacing: -.5px;
+    font-family: 'Helvetica';
+    letter-spacing: -.2px;
     background: #f5f5f5;
+    border-radius: 10px;
     border: none;
     outline: none;
+    padding: 6px;
+}
+
+.contact__form textarea {
+    height: 100px;
+    width: 70%;
+    margin: 10px;
+    font-family: 'Helvetica';
+    letter-spacing: -.2px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 6px;
 }
 
 .submit {
@@ -63,4 +77,38 @@
     letter-spacing: -.3px;
     cursor: pointer;
     font-size: 15px;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    background: #f5f5f5;
+    color: #000000;
+    transition: .2s ease-in-out;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    letter-spacing: -.3px;
+    opacity: 1; /* Firefox */
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000000;
+    letter-spacing: -.3px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000000;
+    letter-spacing: -.3px;
+}
+
+@media (max-width: 749px) {
+    .contact__form input {
+        width: 100%;
+    }
+
+    .contact__form textarea {
+        width: 100%;
+    }
 }
