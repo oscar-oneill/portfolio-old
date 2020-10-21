@@ -48,25 +48,25 @@ const Navigation = () => {
 
             <ul ref={slideRef} className={`skills__list ${slide ? 'active' : 'inactive' }`}>
                 <li>
-                    <img src={html} alt=""/>
+                    <img src={html} alt="html-logo"/>
                 </li>
                 <li>
-                    <img src={css} alt=""/>
+                    <img src={css} alt="css-logo"/>
                 </li>
                 <li>
-                    <img src={javascript} alt=""/>
+                    <img src={javascript} alt="js-logo"/>
                 </li>
                 <li>
-                    <img id="react" src={reactjs} alt=""/>
+                    <img id="react" src={reactjs} alt="react-logo"/>
                 </li>
                 <li>
-                    <img src={node} alt=""/>
+                    <img src={node} alt="node-logo"/>
                 </li>
                 <li>
-                    <img src={express} alt=""/>
+                    <img src={express} alt="ex-logo"/>
                 </li>
                 <li>
-                    <img src={mongo} alt=""/>
+                    <img src={mongo} alt="db-logo"/>
                 </li>
             </ul>
 
