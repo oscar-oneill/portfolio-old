@@ -55,7 +55,7 @@
 .one {
     background: #192536;
     color: #f5f5f5;
-    background-image: url('../Media/images/music-sheet.png');
+    background-image: url('../media/images/music-sheet.png');
     background-size: 75px;
     background-repeat: no-repeat;
     background-position: 99% 94%;
@@ -64,7 +64,7 @@
 .two {
     background: #5373F7;
     color: #000000;
-    background-image: url('../Media/images/reddit.png');
+    background-image: url('../media/images/reddit.png');
     background-size: 75px;
     background-repeat: no-repeat;
     background-position: 99% 94%;
@@ -72,7 +72,7 @@
 
 .three {
     background: #fffafa;
-    background-image: url('../Media/images/podcast.png');
+    background-image: url('../media/images/podcast.png');
     background-size: 75px;
     background-repeat: no-repeat;
     background-position: 99% 94%;
@@ -81,7 +81,7 @@
 .four {
     background: #5373F7;
     color: #000000;
-    background-image: url('../Media/images/pictures.png');
+    background-image: url('../media/images/pictures.png');
     background-size: 75px;
     background-repeat: no-repeat;
     background-position: 99% 94%;
@@ -90,7 +90,7 @@
 .five {
     background: #192536;
     color: #f5f5f5;
-    background-image: url('../Media/images/sport.png');
+    background-image: url('../media/images/sport.png');
     background-size: 75px;
     background-repeat: no-repeat;
     background-position: 99% 94%;

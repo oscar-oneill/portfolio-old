@@ -1,13 +1,13 @@
 import React, { useRef, useState, useEffect } from 'react';
-import '../Navigation/Navigation.css';
-import resume from '../Media/documents/oscaroneill_resume.pdf';
-import html from '../Media/images/html.png';
-import css from '../Media/images/css.png';
-import javascript from '../Media/images/javascript.png';
-import reactjs from '../Media/images/react.png';
-import node from '../Media/images/node.png';
-import express from '../Media/images/express.png';
-import mongo from '../Media/images/mongodb.png';
+import '../components/Navigation.css';
+import resume from '../media/documents/oscaroneill_resume.pdf';
+import html from '../media/images/html.png';
+import css from '../media/images/css.png';
+import javascript from '../media/images/javascript.png';
+import reactjs from '../media/images/react.png';
+import node from '../media/images/node.png';
+import express from '../media/images/express.png';
+import mongo from '../media/images/mongodb.png';
 
 const Navigation = () => {
     const dropdownRef = useRef(null);

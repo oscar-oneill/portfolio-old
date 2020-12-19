@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import '../Contact/Contact.css';
+import '../components/Contact.css';
 
 const Contact = () => {
 

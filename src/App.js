@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Body from './components/Body/Body';
-import Contact from './components/Contact/Contact';
-import Hero from './components/Hero/Hero';
-import Navigation from "./components/Navigation/Navigation";
+import Body from './components/Body';
+import Contact from './components/Contact';
+import Hero from './components/Hero';
+import Navigation from './components/Navigation';
 
 function App() {
   return (

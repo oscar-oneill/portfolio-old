@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Body/Body.css';
-import internet from '../Media/images/internet.png';
-import github from '../Media/images/github.png';
+import '../components/Body.css';
+import internet from '../media/images/internet.png';
+import github from '../media/images/github.png';
 
 const Body = () => {
     return (
