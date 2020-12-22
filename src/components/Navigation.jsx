@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import '../components/Navigation.css';
-import resume from '../media/documents/oscaroneill_resume.pdf';
+import res from '../media/documents/oscaroneill_resume.pdf';
 import html from '../media/images/html.png';
 import css from '../media/images/css.png';
 import javascript from '../media/images/javascript.png';
@@ -8,6 +8,7 @@ import reactjs from '../media/images/react.png';
 import node from '../media/images/node.png';
 import express from '../media/images/express.png';
 import mongo from '../media/images/mongodb.png';
+import postgres from '../media/images/postgreSQL.png';
 
 const Navigation = () => {
     const dropdownRef = useRef(null);
@@ -66,6 +67,9 @@ const Navigation = () => {
                     <img src={express} alt="ex-logo"/>
                 </li>
                 <li>
+                    <img src={postgres} alt="psql-logo"/>
+                </li>
+                <li>
                     <img src={mongo} alt="db-logo"/>
                 </li>
             </ul>
@@ -79,7 +83,7 @@ const Navigation = () => {
                 </div>
 
                 <div onClick={onClick} className="nav__resume nav">
-                    <a href={resume}>Resume</a>
+                    <a href={res}>Resume</a>
                 </div>
                 
                 <div onClick={onClick} className="nav__contact nav">
