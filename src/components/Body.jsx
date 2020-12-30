@@ -86,6 +86,24 @@ const Body = () => {
               </a>
             </div>
           </div>
+
+          <div className="body__content six">
+            <span className="content__text">Southside Football Database</span>
+            <p className="content__info">Tracking health & gameday status of players</p>
+            <div className="content__links">
+              <a target="_blank" href="http://southsidefootball.herokuapp.com/" rel="noreferrer noopener">
+                <img src={internet} alt="internet logo" />
+                &nbsp; Website
+              </a>
+
+              <a target="_blank" href="https://github.com/oscar-oneill/southside-football" rel="noreferrer noopener">
+                <img src={github} alt="github logo" />
+                &nbsp; Github
+              </a>
+            </div>
+          </div>
+
+
         </div>
       </div>
     );

@@ -96,12 +96,21 @@
     background-position: 99% 94%;
 }
 
+.six {
+    background: #fffafa;
+    color: #000000;
+    background-image: url('../media/images/football.png');
+    background-size: 75px;
+    background-repeat: no-repeat;
+    background-position: 99% 94%;  
+}
+
 @media (min-width: 769px) {
     .body__wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .three {
+    .three, .six {
         grid-column-start: 1;
         grid-column-end: 3;
     }
