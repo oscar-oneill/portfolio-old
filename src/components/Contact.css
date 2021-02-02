@@ -1,5 +1,5 @@
 #contact_container {
-    color: white;
+    color: #ffffff;
     min-height: auto;
     width: 100vw;
     padding: 10px;
@@ -24,6 +24,7 @@
 .contact__box {
     display: grid;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .box {

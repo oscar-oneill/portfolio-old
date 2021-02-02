@@ -7,7 +7,7 @@ import javascript from '../media/images/javascript.png';
 import reactjs from '../media/images/react.png';
 import node from '../media/images/node.png';
 import express from '../media/images/express.png';
-import mongo from '../media/images/mongodb.png';
+import git from '../media/images/git.png';
 import postgres from '../media/images/postgreSQL.png';
 
 const Navigation = () => {
@@ -70,7 +70,7 @@ const Navigation = () => {
                     <img src={postgres} alt="psql-logo"/>
                 </li>
                 <li>
-                    <img src={mongo} alt="db-logo"/>
+                    <img src={git} alt="git-logo"/>
                 </li>
             </ul>
 
