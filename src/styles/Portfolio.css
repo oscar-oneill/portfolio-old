@@ -1,0 +1,104 @@
+.portfolio__container {
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    font-family: 'Visuelt-Pro Regular';
+}
+
+.portfolio__box {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.project__container {
+    height: auto;
+    width: 500px;
+}
+
+.project__title {
+    font-family: 'Helvetica';
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.project__title, .project__memo, .project__stack {
+    margin-bottom: 8px;
+}
+
+.project__stack {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.project__stack img {
+    margin: 0px 8px;
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.react {
+    border-radius: 50%;
+}
+
+.project__display {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.image__box {
+    height: auto;
+    width: 500px;
+    display: inline-block;
+}
+
+.project__img {
+    height: auto;
+    width: 500px;
+    object-fit: scale-down;
+}
+
+.project__links {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.project__btn {
+    height: 35px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: #e3dffc;
+    color: #7b6cdb;
+    border-radius: 10px;
+}
+
+.project__btn:hover {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .portfolio__box {
+        height: 575px;
+    }
+
+    .image__box, .project__img {
+        height: auto;
+        width: 360px;
+    }
+}

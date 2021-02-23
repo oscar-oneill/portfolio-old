@@ -18,12 +18,17 @@
   src: url('./fonts/HelveticaNeueMedium.woff');
 }
 
+@font-face {
+  font-family: 'Visuelt-Pro Regular';
+  src: url('./fonts/VisueltPro-Regular.ttf');
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: #faf0e6;
+  background: #ffffff;
   color: #000000;
   font-family: 'Helvetica';
   font-weight: bolder;
