@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import '../styles/Navigation.css';
 import res from '../media/documents/oscaroneill_resume.pdf';
 
