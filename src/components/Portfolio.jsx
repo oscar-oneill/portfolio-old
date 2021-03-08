@@ -49,6 +49,8 @@ const Portfolio = () => {
                         <img src={html} alt="html logo"/>
                         <img src={css} alt="css logo"/>
                         <img src={javascript} alt="javascript logo"/>
+                        <img src={node} alt="node logo"/>
+                        <img src={express} alt="express logo"/>
                     </p>
                 </div>
 
@@ -58,7 +60,7 @@ const Portfolio = () => {
                     </div>
                     <div className="project__links">
                         <div className="project__btn"><a target="_blank" href="https://github.com/oscar-oneill/telepath" rel="noreferrer noopener">Source Code</a></div>
-                        <div className="project__btn"><a target="_blank" href="https://telepath.netlify.app/" rel="noreferrer noopener">Website</a></div>
+                        <div className="project__btn"><a target="_blank" href="https://telepath.herokuapp.com/" rel="noreferrer noopener">Website</a></div>
                     </div>
                 </div>
             </div>
