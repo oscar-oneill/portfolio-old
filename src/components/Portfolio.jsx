@@ -8,13 +8,13 @@ import javascript from '../media/images/javascript.png';
 import reactjs from '../media/images/react.png';
 import node from '../media/images/node.png';
 import express from '../media/images/express.png';
-import postgres from '../media/images/postgreSQL.png';
+// import postgres from '../media/images/postgreSQL.png';
 
 import yesterday from '../media/images/yesterday.png';
 import telepath from '../media/images/telepath.png';
 import three from '../media/images/three.png';
 import splashgram from '../media/images/splashgram.png';
-import southside from '../media/images/southside.png';
+// import southside from '../media/images/southside.png';
 
 const Portfolio = () => {
     return (
