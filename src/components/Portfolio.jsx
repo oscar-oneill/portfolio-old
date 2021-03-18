@@ -89,7 +89,7 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <div className="portfolio__box">
+            {/* <div className="portfolio__box">
                 <div className="project__container">
                     <div className="project__title">Southside Football</div>
                     <p className="project__memo">Tracking the health and gameday status of football players, then storing the data in PostgreSQL</p>
@@ -112,7 +112,7 @@ const Portfolio = () => {
                         <div className="project__btn"><a target="_blank" href="http://southsidefootball.herokuapp.com/" rel="noreferrer noopener">Website</a></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="portfolio__box">
                 <div className="project__container">
