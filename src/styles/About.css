@@ -1,8 +1,8 @@
 .about__container {
     min-height: 100vh;
     width: 100vw;
-    background: #e3dffc;
-    color: #483d8b;
+    background: #fff;
+    color: #000;
     font-family: 'Visuelt-Pro Regular';
     display: flex;
     flex-direction: column;
@@ -58,7 +58,6 @@ section {
     width: 145px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #483d8b;
 }
 
 #about__heading {
@@ -95,8 +94,8 @@ section {
 }
 
 .dataBox__2 li img, .dataBox__3 a img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 
 .dataBox__3 a {
@@ -107,14 +106,6 @@ section {
 .about__container .nav__container {
     position: fixed;
     top: 0px;
-}
-
-.about__container svg {
-    fill: #483d8b;
-}
-
-.about__container svg:hover {
-    fill: #7b6cdb;
 }
 
 .about__container .nav__links:hover, .dataBox__3 li:hover {

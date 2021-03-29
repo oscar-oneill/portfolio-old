@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import resume from '../media/documents/oscaroneill_resume.pdf';
+import resume from '../media/documents/oscaroneillResume.pdf';
 
 const Home = () => {
     return (

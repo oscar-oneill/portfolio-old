@@ -44,10 +44,6 @@
     object-fit: contain;
 }
 
-.react {
-    border-radius: 50%;
-}
-
 .project__display {
     height: auto;
     width: auto;

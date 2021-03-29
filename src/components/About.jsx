@@ -12,6 +12,7 @@ import express from '../media/images/express.png';
 import git from '../media/images/git.png';
 import gulp from '../media/images/gulp.png';
 import postgres from '../media/images/postgreSQL.png';
+import firebase from '../media/images/firebase.png';
 import oscar from '../media/images/oscar.jpg';
 import instagram from '../media/images/instagram.png';
 import twitter from '../media/images/twitter.png';
@@ -46,10 +47,11 @@ const About = () => {
                             <li><img src={css} alt="css logo"/>&nbsp;CSS</li>
                             <li><img src={sass} alt="sass logo"/>&nbsp;SASS</li>
                             <li><img src={javascript} alt="js logo"/>&nbsp;JavaScript</li>
-                            <li><img className="react" src={reactjs} alt="react logo"/>&nbsp;React.js</li>
+                            <li><img src={reactjs} alt="react logo"/>&nbsp;React.js</li>
                             <li><img src={node} alt="node logo"/>&nbsp;Node.js</li>
                             <li><img src={express} alt="express logo"/>&nbsp;Express.js</li>
                             <li><img src={postgres} alt="postgres logo"/>&nbsp;PostgreSQL</li>
+                            <li><img src={firebase} alt="firebase logo"/>&nbsp;Firebase</li>
                             <li><img src={gulp} alt="gulp logo"/>&nbsp;Gulp</li>
                             <li><img src={git} alt="git logo"/>&nbsp;Git</li>
                         </ul>
