@@ -64,9 +64,9 @@ const Portfolio = () => {
                 title='Southside Football'
                 memo='Tracking the health and gameday status of football players.'
                 project={southside}
-                tech='HTML, SASS, JavaScript, Node, Express, PostgreSQL'
-                code='https://github.com/oscar-oneill/southside-footlball'
-                website='https://southsidefootball.herokuapp.com/'
+                tech='React, Node, Express, PostgreSQL, JSON Web Token'
+                code='https://github.com/oscar-oneill/southsiderebels'
+                website='https://southsiderebels.herokuapp.com/'
             />
 
         </div>
