@@ -30,16 +30,16 @@ const Portfolio = () => {
                 project={telepath}
                 tech='HTML, CSS, JavaScript, Node, Express, Snoowrap.js'
                 code='https://github.com/oscar-oneill/telepath'
-                website='http://telepath.herokuapp.com/'
+                website='https://telepath.website/'
             />
 
             <Projects
                 title='Splashgram'
-                memo='Splashgram is an Instagram styled Unsplash viewer'
+                memo='Splashgram is an Instagram styled Unsplash web application'
                 project={splashgram}
-                tech='HTML, CSS, JavaScript, Node, Express, Unsplash.js'
+                tech='React, Node, Express'
                 code='https://github.com/oscar-oneill/splashgram'
-                website='http://splashgram.xyz/'
+                website='https://splashgram.xyz/'
             />
 
             <Projects
