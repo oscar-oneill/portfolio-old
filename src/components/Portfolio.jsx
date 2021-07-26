@@ -5,7 +5,6 @@ import Projects from '../components/Projects';
 
 import yesterday from '../media/images/yesterday.png';
 import telepath from '../media/images/telepath.png';
-import three from '../media/images/three.png';
 import splashgram from '../media/images/splashgram.png';
 import firechat from '../media/images/firechat.png';
 import southside from '../media/images/southside.png';
@@ -25,39 +24,12 @@ const Portfolio = () => {
             />
 
             <Projects
-                title='Telepath'
-                memo='Telepath filters videos & gifs posted to reddit then displays them on screen for redditors to view'
-                project={telepath}
-                tech='HTML, CSS, JavaScript, Node, Express, Snoowrap.js'
-                code='https://github.com/oscar-oneill/telepath'
-                website='https://telepath.website/'
-            />
-
-            <Projects
                 title='Splashgram'
                 memo='Splashgram is an Instagram styled Unsplash web application'
                 project={splashgram}
                 tech='React, Node, Express'
                 code='https://github.com/oscar-oneill/splashgram'
                 website='https://splashgram.xyz/'
-            />
-
-            <Projects
-                title='Firechat'
-                memo='Firechat is a single group super chat room where all it takes to participate is a Google account and a desire to speak'
-                project={firechat}
-                tech='React, Firebase, Firebase Firestore'
-                code='https://github.com/oscar-oneill/splashgram'
-                website='https://superfirechat.netlify.app/'
-            />
-
-            <Projects
-                title='Three Sportsmen Podcast*'
-                memo='Single page application where fans can stream podcast episodes and view scores from major professional sports leagues'
-                project={three}
-                tech='React'
-                code='https://github.com/oscar-oneill/threesportsmen'
-                website='https://threesportsmen.netlify.app'
             />
 
             <Projects
@@ -69,6 +41,23 @@ const Portfolio = () => {
                 website='https://southsiderebels.herokuapp.com/'
             />
 
+            <Projects
+                title='Telepath'
+                memo='Telepath filters videos & gifs posted to reddit then displays them on screen for redditors to view'
+                project={telepath}
+                tech='HTML, CSS, JavaScript, Node, Express, Snoowrap.js'
+                code='https://github.com/oscar-oneill/telepath'
+                website='https://telepath.website/'
+            />
+
+            <Projects
+                title='Firechat'
+                memo='Firechat is a single group super chat room where all it takes to participate is a Google account and a desire to speak'
+                project={firechat}
+                tech='React, Firebase, Firebase Firestore'
+                code='https://github.com/oscar-oneill/splashgram'
+                website='https://superfirechat.netlify.app/'
+            />
         </div>
     )
 }

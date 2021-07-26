@@ -80,7 +80,14 @@ section {
     margin: 30px 0px;
 }
 
-.dataBox__2 ul, .dataBox__3 ul {
+.dataBox__2 ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+}
+
+.dataBox__3 ul {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -113,7 +120,7 @@ section {
 }
 
 .about__container .blanket {
-    background: #ffffff;
+    background: #e3dffc;
 }
 
 .about__container .mobile__menu {
@@ -137,6 +144,7 @@ section {
 
     .dataBox__1 {
         margin-bottom: 25px;
+        width: 100%;
     }
 
     .dataBox__2 {
@@ -150,5 +158,11 @@ section {
 
     .text {
         text-align: center;
+    }
+}
+
+@media (max-width: 530px) {
+    .dataBox__2 ul {
+        width: 100%;
     }
 }

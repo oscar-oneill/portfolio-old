@@ -18,8 +18,8 @@ import instagram from '../media/images/instagram.png';
 import twitter from '../media/images/twitter.png';
 import github from '../media/images/github.png';
 import linkedin from '../media/images/linkedin.svg';
+import docker from '../media/images/docker.png';
 
-console.log(Navigation)
 const About = () => {
     return (
         <div className="about__container">
@@ -34,7 +34,7 @@ const About = () => {
                         </div>
 
                         <div className="box text">
-                            <p>I'm a self-taught Front End Developer who loves coding, music, sports, and finding new ways express myself creatively. Constantly learning and evolving to be the best I can be.</p>
+                            <p>Front End Developer finding new & creative ways to express myself. Constantly learning and evolving to be the best I can be. <br/> #AllGasNoBrake</p>
                         </div>
                     </div>
 
@@ -47,10 +47,11 @@ const About = () => {
                             <li><img src={css} alt="css logo"/>&nbsp;CSS</li>
                             <li><img src={sass} alt="sass logo"/>&nbsp;SASS</li>
                             <li><img src={javascript} alt="js logo"/>&nbsp;JavaScript</li>
-                            <li><img src={reactjs} alt="react logo"/>&nbsp;React.js</li>
-                            <li><img src={node} alt="node logo"/>&nbsp;Node.js</li>
-                            <li><img src={express} alt="express logo"/>&nbsp;Express.js</li>
+                            <li><img src={reactjs} alt="react logo"/>&nbsp;React</li>
+                            <li><img src={node} alt="node logo"/>&nbsp;Node</li>
+                            <li><img src={express} alt="express logo"/>&nbsp;Express</li>
                             <li><img src={postgres} alt="postgres logo"/>&nbsp;PostgreSQL</li>
+                            <li><img src={docker} alt="docker logo"/>&nbsp;Docker</li>
                             <li><img src={firebase} alt="firebase logo"/>&nbsp;Firebase</li>
                             <li><img src={gulp} alt="gulp logo"/>&nbsp;Gulp</li>
                             <li><img src={git} alt="git logo"/>&nbsp;Git</li>

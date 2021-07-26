@@ -39,6 +39,7 @@
     border-radius: 10px;
     margin-top: 25px;
     cursor: pointer;
+    font-size: 17px;
 }
 
 .home__container li:hover {
@@ -55,5 +56,11 @@
 
     #home__text {
         font-size: 45px;
+    }
+}
+
+@media (max-width: 325px) {
+    .home__container li {
+        font-size: 14px;
     }
 }
