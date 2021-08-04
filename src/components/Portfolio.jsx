@@ -8,6 +8,7 @@ import telepath from '../media/images/telepath.png';
 import splashgram from '../media/images/splashgram.png';
 import firechat from '../media/images/firechat.png';
 import southside from '../media/images/southside.png';
+import blackjack from '../media/images/blackjack.png';
 
 const Portfolio = () => {
     return (
@@ -30,6 +31,15 @@ const Portfolio = () => {
                 tech='React, Node, Express'
                 code='https://github.com/oscar-oneill/splashgram'
                 website='https://splashgram.xyz/'
+            />
+
+            <Projects
+                title='Blackjack'
+                memo='Mintbean Hackathon Project for July 2021'
+                project={blackjack}
+                tech='HTML, CSS, JavaScript'
+                code='https://github.com/oscar-oneill/blackjack'
+                website='https://blackjack21.vercel.app'
             />
 
             <Projects
