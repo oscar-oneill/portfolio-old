@@ -34,7 +34,7 @@ const About = () => {
                         </div>
 
                         <div className="box text">
-                            <p>Front End Developer finding new & creative ways to express myself. Constantly learning and evolving to be the best I can be. <br/> #AllGasNoBrake</p>
+                            <p>I'm a Software Engineer finding new & creative ways to express myself. Constantly learning and evolving to be the best I can be. <br/> #AllGasNoBrake</p>
                         </div>
                     </div>
 

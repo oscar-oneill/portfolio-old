@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="home__container">
             <div className="home__data">
-                <p id="home__text">I'm Oscar O'Neill. <br/> Front End Developer <br/> based in New York.</p>
+                <p id="home__text">I'm Oscar O'Neill. <br/> Software Engineer <br/> based in New York.</p>
                 <ul>
                     <li><a href="/about">About Me</a></li>
                     <li><a href="/portfolio">Portfolio</a></li>

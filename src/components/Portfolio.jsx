@@ -14,7 +14,6 @@ const Portfolio = () => {
     return (
         <div className="portfolio__container">
             <Navigation/>
-
             <Projects
                 title='yesterday'
                 memo='A place to stream music from the album yesterday'
