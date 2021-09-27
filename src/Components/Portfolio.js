@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Portfolio.css';
-import Navigation from '../components/Navigation';
-import Projects from '../components/Projects';
+import Navigation from './Navigation';
+import Projects from './Projects';
 
 import yesterday from '../media/images/yesterday.png';
 import telepath from '../media/images/telepath.png';

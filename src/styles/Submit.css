@@ -1,0 +1,22 @@
+.submit_container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Riforma Regular';
+}
+
+.submit_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    color: #000000;
+    top: 60px;
+}

@@ -1,18 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-synthesis: none;
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
-  overflow: -moz-scrollbars-none;
-  list-style-type: none;
-}
-
-*::-webkit-scrollbar { 
-  display: none;
-}
-
 @font-face {
   font-family: 'Helvetica';
   src: url('./fonts/HelveticaNeueMedium.woff');
@@ -23,6 +8,38 @@
   src: url('./fonts/VisueltPro-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Riforma Heavy';
+  src: url('./fonts/Riforma-Heavy.otf');
+}
+
+@font-face {
+  font-family: 'Riforma Italic';
+  src: url('./fonts/Riforma-Light-Italic.otf')
+}
+
+@font-face {
+  font-family: 'Riforma Regular';
+  src: url('./fonts/Riforma-Regular.otf')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-synthesis: none;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow: -moz-scrollbars-none;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+*::-webkit-scrollbar { 
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -30,9 +47,15 @@ html {
 body {
   background: #ffffff;
   color: #000000;
-  font-family: 'Helvetica';
-  font-weight: bolder;
   font-size: 16px;
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+}
+
+::placeholder {
+  color: rgb(90, 90, 90);
 }
 
 a {
@@ -40,6 +63,6 @@ a {
   text-decoration: none;
 }
 
-.App {
+/* .App {
   display: inline-block;
-}
+} */

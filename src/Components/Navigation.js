@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 import '../styles/Navigation.css';
 import res from '../media/documents/oscaroneillResume.pdf';
 
-
 const Navigation = () => {
     const dropdownRef = useRef(null);
     const [isActive, setIsActive] = useState(false);
@@ -32,6 +31,10 @@ const Navigation = () => {
 
                 <div onClick={onClick} className="nav__links nav">
                     <a href={res}>Resume</a>
+                </div>
+
+                <div onClick={onClick} className="nav__links nav">
+                    <a href="/blog">Blog</a>
                 </div>
 
                 <div onClick={onClick} className="nav__links nav">

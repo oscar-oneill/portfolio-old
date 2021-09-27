@@ -6,6 +6,7 @@
     font-family: 'Visuelt-Pro Regular';
     display: flex;
     flex-direction: column;
+    font-weight: bold;
 }
 
 section {

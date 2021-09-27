@@ -1,0 +1,31 @@
+.post_container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+  padding: 15px;
+  white-space: pre-line;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Riforma Regular';
+
+}
+
+.post_container a {
+  color: inherit;
+}
+
+.post_container h1 {
+  font-family: 'Riforma Heavy'
+}
+
+.post_container h2, h3 {
+  font-family: 'Riforma Regular'
+}
+
+.post_container h1, h2 {
+  max-width: 700px;
+}
