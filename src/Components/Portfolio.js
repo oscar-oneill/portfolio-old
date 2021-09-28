@@ -9,6 +9,8 @@ import splashgram from '../media/images/splashgram.png';
 import firechat from '../media/images/firechat.png';
 import southside from '../media/images/southside.png';
 import blackjack from '../media/images/blackjack.png';
+import blog from '../media/images/blog.png'
+import tetris from '../media/images/tetris.png'
 
 const Portfolio = () => {
     return (
@@ -27,9 +29,27 @@ const Portfolio = () => {
                 title='Splashgram'
                 memo='Splashgram is an Instagram styled Unsplash web application'
                 project={splashgram}
-                tech='React, Node, Express'
+                tech='React, Node, Express, Docker'
                 code='https://github.com/oscar-oneill/splashgram'
-                website='https://splashgram.xyz/'
+                website='http://splashgram.xyz/'
+            />
+
+            <Projects
+                title="Oscar's Blog"
+                memo='My Web Development Blog'
+                project={blog}
+                tech='React, Node, Express, MongoDB'
+                code='https://github.com/oscar-oneill/portfolio'
+                website='https://oscaroneill.xyz/blog'
+            />
+
+            <Projects
+                title='Retro Tetris'
+                memo='Mintbean Hackathon Project for August 2021'
+                project={tetris}
+                tech='React, Styled Components'
+                code='https://github.com/oscar-oneill/tetris'
+                website='https://retrotetris.vercel.app'
             />
 
             <Projects
@@ -45,7 +65,7 @@ const Portfolio = () => {
                 title='Southside Football'
                 memo='Tracking the health and gameday status of football players.'
                 project={southside}
-                tech='React, Node, Express, PostgreSQL, JSON Web Token'
+                tech='React, Node, Express, PostgreSQL, JSON Web Token, Docker'
                 code='https://github.com/oscar-oneill/southsiderebels'
                 website='https://southsiderebels.herokuapp.com/'
             />
