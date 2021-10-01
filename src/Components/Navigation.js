@@ -38,7 +38,7 @@ const Navigation = () => {
                 </div>
 
                 <div onClick={onClick} className="nav__links nav">
-                    <a href="mailto:oscar.oneill@aol.com">Contact</a>
+                    <a href="mailto:oscaroneill@email.com">Contact</a>
                 </div>
             </div>
 

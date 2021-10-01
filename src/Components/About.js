@@ -4,7 +4,6 @@ import Navigation from './Navigation.js';
 
 import html from '../media/images/html.png';
 import css from '../media/images/css.png';
-import sass from '../media/images/sass.png';
 import javascript from '../media/images/javascript.png';
 import reactjs from '../media/images/react.png';
 import node from '../media/images/node.png';
@@ -20,6 +19,7 @@ import github from '../media/images/github.png';
 import linkedin from '../media/images/linkedin.svg';
 import docker from '../media/images/docker.png';
 import mongo from '../media/images/mongoDB.png';
+import typescript from '../media/images/typescript.png'
 
 const About = () => {
     return (
@@ -46,8 +46,8 @@ const About = () => {
                         <ul>
                             <li><img src={html} alt="html logo"/>&nbsp;HTML</li>
                             <li><img src={css} alt="css logo"/>&nbsp;CSS</li>
-                            <li><img src={sass} alt="sass logo"/>&nbsp;SASS</li>
                             <li><img src={javascript} alt="js logo"/>&nbsp;JavaScript</li>
+                            <li><img src={typescript} alt="js logo"/>&nbsp;TypeScript</li>
                             <li><img src={reactjs} alt="react logo"/>&nbsp;React</li>
                             <li><img src={node} alt="node logo"/>&nbsp;Node</li>
                             <li><img src={express} alt="express logo"/>&nbsp;Express</li>
