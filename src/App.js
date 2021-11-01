@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="App">
-    <AuthContext.Provider value={{ isAuthenticated, setIsAuthenticated}}>
+    <AuthContext.Provider value={{ isAuthenticated, setIsAuthenticated }}>
       <Router>
         <Route exact path="/" component={Home}/>
         <ScrollToTop/>

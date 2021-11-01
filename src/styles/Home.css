@@ -36,16 +36,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #e3dffc;
     color: #7b6cdb;
-    border-radius: 10px;
     margin-top: 25px;
     cursor: pointer;
     font-size: 17px;
+    transition: .2s ease-in-out;
 }
 
 .home__container li:hover {
-    color: #000000
+    background: #e3dffc;
+    color: #7b6cdb;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
 }
 
 @media (max-width: 749px) {
@@ -58,6 +60,7 @@
 
     #home__text {
         font-size: 45px;
+        margin-left: 10px;
     }
 }
 

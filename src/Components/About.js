@@ -11,7 +11,6 @@ import express from '../media/images/express.png';
 import git from '../media/images/git.png';
 import gulp from '../media/images/gulp.png';
 import postgres from '../media/images/postgreSQL.png';
-import firebase from '../media/images/firebase.png';
 import oscar from '../media/images/oscar.jpg';
 import instagram from '../media/images/instagram.png';
 import twitter from '../media/images/twitter.png';
@@ -20,6 +19,7 @@ import linkedin from '../media/images/linkedin.svg';
 import docker from '../media/images/docker.png';
 import mongo from '../media/images/mongoDB.png';
 import typescript from '../media/images/typescript.png'
+import python from '../media/images/python.png'
 
 const About = () => {
     return (
@@ -47,14 +47,14 @@ const About = () => {
                             <li><img src={html} alt="html logo"/>&nbsp;HTML</li>
                             <li><img src={css} alt="css logo"/>&nbsp;CSS</li>
                             <li><img src={javascript} alt="js logo"/>&nbsp;JavaScript</li>
-                            <li><img src={typescript} alt="js logo"/>&nbsp;TypeScript</li>
+                            <li><img src={typescript} alt="ts logo"/>&nbsp;TypeScript</li>
+                            <li><img src={python} alt="python logo"/>&nbsp;Python</li>
                             <li><img src={reactjs} alt="react logo"/>&nbsp;React</li>
                             <li><img src={node} alt="node logo"/>&nbsp;Node</li>
                             <li><img src={express} alt="express logo"/>&nbsp;Express</li>
                             <li><img src={mongo} alt="redux logo"/>&nbsp;MongoDB</li>
                             <li><img src={postgres} alt="postgres logo"/>&nbsp;PostgreSQL</li>
                             <li><img src={docker} alt="docker logo"/>&nbsp;Docker</li>
-                            <li><img src={firebase} alt="firebase logo"/>&nbsp;Firebase</li>
                             <li><img src={gulp} alt="gulp logo"/>&nbsp;Gulp</li>
                             <li><img src={git} alt="git logo"/>&nbsp;Git</li>
                         </ul>

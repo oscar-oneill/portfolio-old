@@ -12,7 +12,7 @@ const Home = () => {
                     <li><a href="/portfolio">Portfolio</a></li>
                     <li><a href={resume}>Resume</a></li>
                     <li><a href="/blog">Blog</a></li>
-                    <li><a href="mailto:oscar.oneill@aol.com">Contact</a></li>
+                    <li><a href="mailto:oscaroneill@email.com">Contact</a></li>
                 </ul>    
             </div>
         </div>
