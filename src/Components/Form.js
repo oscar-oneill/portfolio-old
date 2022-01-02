@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import '../styles/Form.css'
 import axios from 'axios'
 import BlogConnection from '../API/BlogConnection'

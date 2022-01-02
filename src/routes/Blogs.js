@@ -1,14 +1,12 @@
-import React, {useState, useEffect, useContext} from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Posts from '../Components/Posts'
 import BlogNavigation from '../Components/BlogNavigation'
-import { AuthContext } from '../Context/AuthContext'
 import BlogConnection from '../API/BlogConnection'
-import loading from '../media/images/loading.gif'
+import Loading from '../Hooks/Loading'
+
 
 const Blogs = () => {
-    // eslint-disable-next-line
-    const {isAuthenticated, setIsAuthenticated} = useContext(AuthContext)
     const [blogs, setBlogs] = useState("")
     const [loaded, setLoaded] = useState(false)
 
@@ -34,7 +32,7 @@ const Blogs = () => {
         return (
             <div className="main_container">
                 <div className="gif_container">
-                    <img className="loadingGIF" src={loading} alt="loading"/>
+                    <Loading/>
                 </div>
             </div>
         )

@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import UpdateForm from '../Components/UpdateForm'
 import axios from 'axios'
 import BlogConnection from '../API/BlogConnection'
@@ -11,11 +11,9 @@ const Update = () => {
 
     document.title = 'Editing A Blog Post';
 
-
     useEffect(() => {
         getBlog()
     }, [])
-
 
     const getBlog = () => {
         BlogConnection.get(`/posts/${id}`)
@@ -46,8 +44,6 @@ const Update = () => {
             )
         }
     }
-
-
 }
 
 export default Update

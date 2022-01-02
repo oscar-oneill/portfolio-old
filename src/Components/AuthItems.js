@@ -1,9 +1,8 @@
 import React, { useContext } from 'react'
-import { AuthContext } from '../Context/AuthContext'
+import { AppContext } from '../Context/AppContext'
 
 const AuthItems = () => {
-    // eslint-disable-next-line
-    const {isAuthenticated, setIsAuthenticated} = useContext(AuthContext)
+    const { setIsAuthenticated } = useContext(AppContext)
     const urlPathname = window.location.pathname;
     let id = window.location.pathname.slice(11)
     let token = localStorage.getItem('token')

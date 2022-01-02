@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import '../styles/Login.css'
 import axios from 'axios'
 import BlogConnection from '../API/BlogConnection'
+import { AppContext } from '../Context/AppContext'
 
 const Login = () => {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
+    const { setIsAuthenticated } = useContext(AppContext)
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -18,6 +20,7 @@ const Login = () => {
                 localStorage.setItem("token", res.data.data.token)
                 setUsername("")
                 setPassword("")
+                setIsAuthenticated(true)
                 window.location.href = '/blog'
             })
         } catch (err) {

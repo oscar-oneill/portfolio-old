@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/BlogNavigation.css';
+import { Link } from 'react-router-dom'
 import AuthItems from './AuthItems';
 import Items from './Items';
 
@@ -13,13 +14,13 @@ const BlogNavigation = () => {
         style.color = '#fff'
     } else {
         (style.color = '#2E2E2E') && 
-        (style.backgroundColor = 'ghostwhite') &&
+        (style.backgroundColor = '#f8f8ff') &&
         (style.zIndex = '1')
     }
 
     return (
         <nav className="nav_container_blog" style={style}>
-            <h3><a href="/blog">Oscar's Blog</a></h3>
+            <h3><Link to="/blog">Oscar's Blog</Link></h3>
 
             {token ? <AuthItems/> : <Items/>}
         </nav>
