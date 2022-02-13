@@ -42,6 +42,15 @@ const Portfolio = () => {
             />
 
             <Projects
+                title='Switch'
+                memo='Get the best swap options when trading crypto'
+                project={image.switchswap}
+                tech='React, TypeScript, Web3.js'
+                code='https://github.com/oscar-oneill/switchswap'
+                website='https://switchswapcrypto.netlify.app/'
+            />
+
+            <Projects
                 title="Oscar's Blog"
                 memo='My Web Development Blog'
                 project={image.blog}
@@ -66,15 +75,6 @@ const Portfolio = () => {
                 tech='HTML, CSS, JavaScript'
                 code='https://github.com/oscar-oneill/blackjack'
                 website='https://blackjack21.vercel.app'
-            />
-
-            <Projects
-                title='Southside Football'
-                memo='Tracking the health and gameday status of football players.'
-                project={image.southside}
-                tech='React, Node, Express, PostgreSQL, JSON Web Token, Docker'
-                code='https://github.com/oscar-oneill/southsiderebels'
-                website='https://southsiderebels.herokuapp.com/'
             />
 
             <Projects

@@ -27,9 +27,9 @@ const Intro = () => {
                 <ul ref={introNavInnerRef}>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href={resume}>Resume</a></li>
+                    <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
                     <li><Link to="/blog">Blog</Link></li>
-                    <li><Link to="mailto:oscaroneill@email.com">Contact</Link></li>
+                    <li><a href="mailto:oscaroneill@email.com">Contact</a></li>
                 </ul>    
             </div>
         </div>

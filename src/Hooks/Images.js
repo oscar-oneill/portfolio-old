@@ -25,6 +25,7 @@ import southside from '../media/images/southside.png';
 import blackjack from '../media/images/blackjack.png';
 import blog from '../media/images/blog.png'
 import tetris from '../media/images/tetris.png'
+import switchswap from '../media/images/switchswap.png'
 
 export const image = {
     html: html,
@@ -54,4 +55,5 @@ export const image = {
     blackjack: blackjack,
     blog: blog,
     tetris: tetris,
+    switchswap: switchswap,
 }
