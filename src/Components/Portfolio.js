@@ -76,15 +76,6 @@ const Portfolio = () => {
                 code='https://github.com/oscar-oneill/blackjack'
                 website='https://blackjack21.vercel.app'
             />
-
-            <Projects
-                title='Telepath'
-                memo='Telepath filters videos & gifs posted to reddit then displays them on screen for redditors to view'
-                project={image.telepath}
-                tech='HTML, CSS, JavaScript, Node, Express, Snoowrap.js'
-                code='https://github.com/oscar-oneill/telepath'
-                website='https://telepath.website/'
-            />
         </div>
     )
 }
