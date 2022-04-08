@@ -51,6 +51,15 @@ const Portfolio = () => {
             />
 
             <Projects
+                title='Minimalist NFT'
+                memo='Mint an ultra minimal NFT on Ethereum*'
+                project={image.nft}
+                tech='React, Solidity, Ethers.js, Hardhat'
+                code='https://github.com/oscar-oneill/minimalist-nft'
+                website='https://minimalist-nft.vercel.app/'
+            />
+
+            <Projects
                 title="Oscar's Blog"
                 memo='My Web Development Blog'
                 project={image.blog}

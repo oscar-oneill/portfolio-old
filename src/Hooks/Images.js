@@ -26,6 +26,7 @@ import blackjack from '../media/images/blackjack.png';
 import blog from '../media/images/blog.png'
 import tetris from '../media/images/tetris.png'
 import switchswap from '../media/images/switchswap.png'
+import nft from '../media/images/nft.png'
 
 export const image = {
     html: html,
@@ -56,4 +57,5 @@ export const image = {
     blog: blog,
     tetris: tetris,
     switchswap: switchswap,
+    nft: nft
 }
