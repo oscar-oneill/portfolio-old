@@ -2,13 +2,13 @@ export const navigationScheme = {
     default: {
         display: "flex",
         visibility: "hidden",
-        background: "#141a1e",
-        color: "#141a1e",
+        background: "#fff",
+        color: "#fff",
         transition: ".3s ease-in-out",
     },
     intro: {
-        background: "#141a1e",
-        color: "#f0f8ff",
+        background: "#fff",
+        color: "#000",
         transition: ".3s ease-in-out",
     }
 }

@@ -2,14 +2,6 @@ import { image } from '../Hooks/Images';
 
 export const projects = [
     {
-        "title": "yesterday",
-        "memo": "A place to stream music from the album yesterday",
-        "project": image.yesterday,
-        "tech": "React",
-        "code": "https://github.com/oscar-oneill/yesterday-redesign",
-        "website": "https://yesterday.netlify.app/"
-    },
-    {
         "title": 'Splashgram',
         "memo": 'Splashgram is an Instagram styled Unsplash web application',
         "project": image.splashgram,
@@ -50,12 +42,12 @@ export const projects = [
         "website": 'https://retrotetris.vercel.app',
     },
     {        
-        "title": 'Blackjack',
-        "memo": 'Mintbean Hackathon Project for July 2021',
-        "project": image.blackjack,
-        "tech": 'HTML, CSS, JavaScript',
-        "code": 'https://github.com/oscar-oneill/blackjack',
-        "website": 'https://blackjack21.vercel.app'
+        "title": 'NYC Block & Lot Search',
+        "memo": 'Search for Complaints and Violations of an address',
+        "project": image.nycbuildings,
+        "tech": 'React, Node, Express',
+        "code": 'https://github.com/oscar-oneill/NYC-Lot-Search',
+        "website": 'https://nycbuildings.vercel.app'
     }
 ]
 

@@ -15,7 +15,7 @@ import github from '../media/images/github.png';
 import linkedin from '../media/images/linkedin.svg';
 import docker from '../media/images/docker.png';
 import mongo from '../media/images/mongoDB.png';
-import typescript from '../media/images/typescript.png'
+import typescript from '../media/images/typescript.png';
 import python from '../media/images/python.png';
 
 import yesterday from '../media/images/yesterday.png';
@@ -23,10 +23,11 @@ import telepath from '../media/images/telepath.png';
 import splashgram from '../media/images/splashgram.png';
 import southside from '../media/images/southside.png';
 import blackjack from '../media/images/blackjack.png';
-import blog from '../media/images/blog.png'
-import tetris from '../media/images/tetris.png'
-import switchswap from '../media/images/switchswap.png'
-import nft from '../media/images/nft.png'
+import blog from '../media/images/blog.png';
+import tetris from '../media/images/tetris.png';
+import switchswap from '../media/images/switchswap.png';
+import nft from '../media/images/nft.png';
+import nycbuildings from '../media/images/nycbuildings.png'
 
 export const image = {
     html: html,
@@ -57,5 +58,6 @@ export const image = {
     blog: blog,
     tetris: tetris,
     switchswap: switchswap,
-    nft: nft
+    nft: nft,
+    nycbuildings: nycbuildings
 }

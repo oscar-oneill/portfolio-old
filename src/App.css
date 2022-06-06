@@ -1,12 +1,12 @@
 :root {
   --light: #ffffff;
-  --lightAlt: #f0f8ff;
-  --dark: #141a1e;
+  --lightAlt: #000000;
+  --bg: #fff;
   --links: #7b6cdb;
   --textHover: #e3dffc;
   --textHoverAlt: #7fffd4;
-  --transparentBg: #2c1b468e;
-  --transparentBgAlt: #183129b7;
+  --transparentBg: #d8ceeee3;
+  --transparentBgAlt: #2a015aea;
 }
 
 @font-face {
@@ -56,7 +56,7 @@ html {
 }
 
 body {
-  background: var(--dark);
+  background: var(--bg);
   color: var(--lightAlt);
   font-size: 16px;
 }
