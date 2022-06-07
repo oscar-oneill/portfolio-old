@@ -32,6 +32,14 @@ export const projects = [
         "tech": 'React, Node, Express, MongoDB',
         "code": 'https://github.com/oscar-oneill/portfolio',
         "website": 'https://oscaroneill.xyz/blog',
+    }, 
+    {
+        "title": "Southside Rebels Football",
+        "memo": 'A CRUD web application for Southside Football',
+        "project": image.southside,
+        "tech": 'React, Node, Express, PostgreSQL, Docker',
+        "code": 'https://github.com/oscar-oneill/southsiderebels',
+        "website": 'https://southsiderebels.herokuapp.com',
     },
     {
         "title": 'Retro Tetris',
