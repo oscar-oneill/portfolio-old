@@ -24,9 +24,9 @@ const About = () => {
             <section>
                 <div className="about__data">
                     <div className="dataBox__1">
-                        {/* <div className="box about">
+                        <div className="box about">
                             <img id="oscar" src={image.oscar} alt="oscar"/>
-                        </div> */}
+                        </div>
 
                         <div className="box text">
                             <p>I'm a Software Engineer finding new & creative ways to express myself. Constantly learning and evolving to be the best I can be.</p>
@@ -60,10 +60,10 @@ const About = () => {
                         </div>
 
                         <ul>
-                            {/* <li><a href="https://www.linkedin.com/in/oscarone/" target="_blank" rel="noreferrer noopener"><img src={image.linkedin} alt="linkedin logo"/>&nbsp;LinkedIn</a></li> */}
+                            <li><a href="https://www.linkedin.com/in/oscarone/" target="_blank" rel="noreferrer noopener"><img src={image.linkedin} alt="linkedin logo"/>&nbsp;LinkedIn</a></li>
                             <li><a href="https://github.com/oscar-oneill" target="_blank" rel="noreferrer noopener"><img src={image.github} alt="github logo"/>&nbsp;Github</a></li>
                             <li><a href="https://twitter.com/itsoscarlavista" target="_blank" rel="noreferrer noopener"><img src={image.twitter} alt="twitter logo"/>&nbsp;Twitter</a></li>
-                            <li><a href="https://www.instagram.com/oscaroneill.js/" target="_blank" rel="noreferrer noopener"><img src={image.instagram} alt="instagram logo"/>&nbsp;Instagram</a></li>
+                            {/* <li><a href="https://www.instagram.com/oscaroneill.js/" target="_blank" rel="noreferrer noopener"><img src={image.instagram} alt="instagram logo"/>&nbsp;Instagram</a></li> */}
                         </ul>
                     </div>
                 </div>
