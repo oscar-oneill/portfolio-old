@@ -132,6 +132,11 @@ section {
     color: var(--links);
 }
 
+#school {
+    width: 240px;
+    object-fit: contain;
+}
+
 @media (max-width: 768px) {
     .box {
         max-width: 400px;

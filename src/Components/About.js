@@ -29,8 +29,23 @@ const About = () => {
                         </div>
 
                         <div className="box text">
-                            <p>I'm a Software Engineer finding new & creative ways to express myself. Constantly learning and evolving to be the best I can be.</p>
+                            <p>I'm a self-taught Front End Software Engineer finding new & creative ways to express myself. Constantly learning and evolving to be the best I can be.</p>
                         </div>
+                    </div>
+
+                    <div className="dataBox__2">
+                        <div className="box__header">
+                            <p>Education</p>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <img id="school" src={image.buffalo} alt="asu"/>
+                            </li>
+                            <li>
+                               Sociology, 2010-2012
+                            </li>
+                        </ul>
                     </div>
 
                     <div className="dataBox__2">
@@ -47,7 +62,8 @@ const About = () => {
                             <li><img src={image.node} alt="node logo"/>&nbsp;Node</li>
                             <li><img src={image.express} alt="express logo"/>&nbsp;Express</li>
                             <li><img src={image.mongo} alt="redux logo"/>&nbsp;MongoDB</li>
-                            <li><img src={image.postgres} alt="postgres logo"/>&nbsp;PostgreSQL</li>
+                            <li><img src={image.mysql} alt="mysql logo" />&nbsp;MySQL</li>
+                            <li><img src={image.postgres} alt="postgres logo" />&nbsp;PostgreSQL</li>
                             <li><img src={image.docker} alt="docker logo"/>&nbsp;Docker</li>
                             <li><img src={image.gulp} alt="gulp logo"/>&nbsp;Gulp</li>
                             <li><img src={image.git} alt="git logo"/>&nbsp;Git</li>

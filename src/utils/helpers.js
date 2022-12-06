@@ -31,16 +31,8 @@ export const projects = [
         "project": image.blog,
         "tech": 'React, Node, Express, MongoDB',
         "code": 'https://github.com/oscar-oneill/portfolio',
-        "website": 'https://oscaroneill.xyz/blog',
+        "website": '/',
     }, 
-    {
-        "title": "Southside Rebels Football",
-        "memo": 'A CRUD web application for Southside Football',
-        "project": image.southside,
-        "tech": 'React, Node, Express, PostgreSQL, Docker',
-        "code": 'https://github.com/oscar-oneill/southsiderebels',
-        "website": 'https://southsiderebels.herokuapp.com',
-    },
     {
         "title": 'Retro Tetris',
         "memo": 'Mintbean Hackathon Project for August 2021',
@@ -53,7 +45,7 @@ export const projects = [
         "title": 'NYC Block & Lot Search',
         "memo": 'Search for Complaints and Violations of an address',
         "project": image.nycbuildings,
-        "tech": 'React, Node, Express',
+        "tech": 'React, Node, Express, Puppeteer',
         "code": 'https://github.com/oscar-oneill/NYC-Lot-Search',
         "website": 'https://nycbuildings.vercel.app'
     }

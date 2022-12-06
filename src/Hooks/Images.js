@@ -6,7 +6,7 @@ import node from '../media/images/node.png';
 import express from '../media/images/express.png';
 import git from '../media/images/git.png';
 import gulp from '../media/images/gulp.png';
-import postgres from '../media/images/postgreSQL.png';
+import mysql from '../media/images/mysql.png';
 import oscar from '../media/images/oscar.jpg';
 import loading from '../media/images/loading.gif';
 import instagram from '../media/images/instagram.png';
@@ -17,6 +17,7 @@ import docker from '../media/images/docker.png';
 import mongo from '../media/images/mongoDB.png';
 import typescript from '../media/images/typescript.png';
 import python from '../media/images/python.png';
+import postgres from '../media/images/postgreSQL.png';
 
 import yesterday from '../media/images/yesterday.png';
 import telepath from '../media/images/telepath.png';
@@ -27,9 +28,13 @@ import blog from '../media/images/blog.png';
 import tetris from '../media/images/tetris.png';
 import switchswap from '../media/images/switchswap.png';
 import nft from '../media/images/nft.png';
-import nycbuildings from '../media/images/nycbuildings.png'
+import nycbuildings from '../media/images/nycbuildings.png';
+import asu from '../media/images/asu.png';
+import buffalo from '../media/images/buffalo.png';
 
 export const image = {
+    asu: asu,
+    buffalo: buffalo,
     html: html,
     css: css,
     javascript: javascript,
@@ -38,7 +43,7 @@ export const image = {
     express: express,
     git: git,
     gulp: gulp,
-    postgres: postgres,
+    mysql: mysql,
     oscar: oscar,
     instagram: instagram,
     twitter: twitter,
@@ -49,6 +54,7 @@ export const image = {
     typescript: typescript,
     python: python,
     loading: loading,
+    postgres: postgres,
 
     yesterday: yesterday,
     telepath: telepath,
