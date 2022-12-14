@@ -40,10 +40,10 @@ const About = () => {
 
                         <ul>
                             <li>
-                                <img id="school" src={image.buffalo} alt="asu"/>
+                                <img id="school" src={image.asu} alt="asu"/>
                             </li>
                             <li>
-                               Sociology, 2010-2012
+                               Sociology
                             </li>
                         </ul>
                     </div>

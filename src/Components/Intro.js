@@ -28,7 +28,8 @@ const Intro = () => {
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
-                    <li><Link to="/blog">Blog</Link></li>
+                    {/* <li><Link to="/blog">Blog</Link></li> */}
+                    <li><a href="javascript:void(0)" id="blog">Blog</a></li>
                     <li><a href="mailto:oscaroneill@email.com">Contact</a></li>
                 </ul>    
             </div>
