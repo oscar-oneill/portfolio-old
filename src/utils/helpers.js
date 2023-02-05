@@ -31,7 +31,7 @@ export const projects = [
         "project": image.blog,
         "tech": 'React, Node, Express, MongoDB',
         "code": 'https://github.com/oscar-oneill/portfolio',
-        "website": '/',
+        "website": 'https://oscaroneill.tech/blog',
     }, 
     {
         "title": 'Retro Tetris',
