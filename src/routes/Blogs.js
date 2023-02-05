@@ -32,7 +32,7 @@ const Blogs = () => {
         return (
             <div className="main_container">
                 <div className="gif_container">
-                    <Loading/>
+                    <span style={{ fontFamily: 'sans-serif' }}>Loading Posts...</span>
                 </div>
             </div>
         )

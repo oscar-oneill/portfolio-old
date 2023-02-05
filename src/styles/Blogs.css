@@ -14,9 +14,3 @@
     align-items: center;
     justify-content: center;
 }
-
-#loading_gif {
-    height: 100px;
-    width: 100px;
-    object-fit: contain;
-}

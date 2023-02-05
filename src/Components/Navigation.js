@@ -79,8 +79,7 @@ const Navigation = () => {
                 </div>
 
                 <div onClick={onClick} className="nav__links nav">
-                    {/* <Link to="/blog">Blog</Link> */}
-                    <a href="javascript:void(0)" id="blog">Blog</a>
+                    <Link to="/blog">Blog</Link>
                 </div>
 
                 <div onClick={onClick} className="nav__links nav">

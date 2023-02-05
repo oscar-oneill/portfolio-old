@@ -3,7 +3,7 @@ import { image } from '../Hooks/Images'
 
 const Loading = () => {
     return (
-        <img id="loading_gif" src={image.loading} alt="Loading GIF"/>
+        <img className="loading_gif" src={image.loading} alt="Loading GIF"/>
     )
 }
 
