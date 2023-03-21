@@ -38,12 +38,13 @@ const About = () => {
                             <p>Education</p>
                         </div>
 
-                        <ul>
+                        <ul id="education">
                             <li>
                                 <img id="school" src={image.asu} alt="asu"/>
+                                Arizona State University
                             </li>
                             <li>
-                               Sociology
+                               Interdisciplinary Studies
                             </li>
                         </ul>
                     </div>

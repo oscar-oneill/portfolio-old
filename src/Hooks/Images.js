@@ -24,6 +24,7 @@ import telepath from '../media/images/telepath.png';
 import splashgram from '../media/images/splashgram.png';
 import southside from '../media/images/southside.png';
 import blackjack from '../media/images/blackjack.png';
+import changethegame from '../media/images/changethegame.png';
 import blog from '../media/images/blog.png';
 import tetris from '../media/images/tetris.png';
 import switchswap from '../media/images/switchswap.png';
@@ -65,5 +66,6 @@ export const image = {
     tetris: tetris,
     switchswap: switchswap,
     nft: nft,
-    nycbuildings: nycbuildings
+    nycbuildings: nycbuildings,
+    changethegame: changethegame
 }
