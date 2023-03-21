@@ -10,6 +10,22 @@ export const projects = [
         "website": 'http://splashgram.xyz/',
     },
     {
+        "title": 'NYC Property Data Search',
+        "memo": "Search for an address' property data",
+        "project": image.nycbuildings,
+        "tech": 'React, Node, Express, Puppeteer',
+        "code": 'https://github.com/oscar-oneill/NYC-Lot-Search',
+        "website": 'https://nycbuildings.vercel.app'
+    },
+    {
+        title: 'Change The Game',
+        memo: "Quiz to determine one's knowledge on Roc-A-Fella Records",
+        project: image.changethegame,
+        tech: 'React, Typescript',
+        code: 'https://github.com/oscar-oneill/changethegame',
+        website: 'https://change-the-game.netlify.app'
+    },
+    {
         "title": 'Switch',
         "memo": 'Get the best swap options when trading crypto',
         "project": image.switchswap,
@@ -24,14 +40,6 @@ export const projects = [
         "tech": 'React, Solidity, Ethers.js, Hardhat',
         "code": 'https://github.com/oscar-oneill/minimalist-nft',
         "website": 'https://minimalist-nft.vercel.app/',
-    },
-    {
-        "title": "Oscar's Blog",
-        "memo": 'My Web Development Blog',
-        "project": image.blog,
-        "tech": 'React, Node, Express, MongoDB',
-        "code": 'https://github.com/oscar-oneill/portfolio',
-        "website": 'https://oscaroneill.tech/blog',
     }, 
     {
         "title": 'Retro Tetris',
@@ -41,13 +49,13 @@ export const projects = [
         "code": 'https://github.com/oscar-oneill/tetris',
         "website": 'https://retrotetris.vercel.app',
     },
-    {        
-        "title": 'NYC Block & Lot Search',
-        "memo": 'Search for Complaints and Violations of an address',
-        "project": image.nycbuildings,
-        "tech": 'React, Node, Express, Puppeteer',
-        "code": 'https://github.com/oscar-oneill/NYC-Lot-Search',
-        "website": 'https://nycbuildings.vercel.app'
-    }
+    {
+        "title": "Oscar's Blog",
+        "memo": 'My Web Development Blog',
+        "project": image.blog,
+        "tech": 'React, Node, Express, MongoDB',
+        "code": 'https://github.com/oscar-oneill/portfolio',
+        "website": 'https://oscaroneill.tech/blog',
+    },
 ]
 
