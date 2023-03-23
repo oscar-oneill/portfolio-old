@@ -2,12 +2,12 @@ import { image } from '../Hooks/Images';
 
 export const projects = [
     {
-        "title": 'Splashgram',
-        "memo": 'Splashgram is an Instagram styled Unsplash web application',
-        "project": image.splashgram,
-        "tech": 'React, Node, Express, Docker',
-        "code": 'https://github.com/oscar-oneill/splashgram',
-        "website": 'http://splashgram.xyz/',
+        title: 'Change The Game',
+        memo: "Quiz to determine one's knowledge on Roc-A-Fella Records",
+        project: image.changethegame,
+        tech: 'React, Typescript',
+        code: 'https://github.com/oscar-oneill/changethegame',
+        website: 'https://change-the-game.netlify.app'
     },
     {
         "title": 'NYC Property Data Search',
@@ -18,29 +18,29 @@ export const projects = [
         "website": 'https://nycbuildings.vercel.app'
     },
     {
-        title: 'Change The Game',
-        memo: "Quiz to determine one's knowledge on Roc-A-Fella Records",
-        project: image.changethegame,
-        tech: 'React, Typescript',
-        code: 'https://github.com/oscar-oneill/changethegame',
-        website: 'https://change-the-game.netlify.app'
-    },
-    {
         "title": 'Switch',
         "memo": 'Get the best swap options when trading crypto',
         "project": image.switchswap,
         "tech": 'React, TypeScript, Web3.js',
         "code": 'https://github.com/oscar-oneill/switchswap',
         "website": 'https://switchswapcrypto.netlify.app/',
+    }, 
+    {
+        "title": 'Yesterday',
+        "memo": 'Listen to music and read lyrics in a beautiful interface',
+        "project": image.yesterday,
+        "tech": 'React, Framer Motion',
+        "code": 'https://github.com/oscar-oneill/yesterday-redesign',
+        "website": 'https://yesterday.netlify.app',
     },
     {
-        "title": 'Minimalist NFT',
-        "memo": 'Mint an ultra minimal NFT on Ethereum*',
-        "project": image.nft,
-        "tech": 'React, Solidity, Ethers.js, Hardhat',
-        "code": 'https://github.com/oscar-oneill/minimalist-nft',
-        "website": 'https://minimalist-nft.vercel.app/',
-    }, 
+        "title": 'Telepath',
+        "memo": 'View GIFs and videos on Reddit',
+        "project": image.telepath,
+        "tech": 'React, snoowrap.js, Node, Express',
+        "code": 'https://github.com/oscar-oneill/telepath',
+        "website": 'https://telepath.vercel.app',
+    },
     {
         "title": 'Retro Tetris',
         "memo": 'Mintbean Hackathon Project for August 2021',
@@ -57,5 +57,6 @@ export const projects = [
         "code": 'https://github.com/oscar-oneill/portfolio',
         "website": 'https://oscaroneill.tech/blog',
     },
+
 ]
 
